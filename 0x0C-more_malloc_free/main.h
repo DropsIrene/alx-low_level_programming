@@ -1,7 +1,6 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
@@ -13,7 +12,7 @@ void *_calloc(unsigned int nmemb, unsigned int size);
 int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void errors(void);
-int _strlen(char *s);
+int _strien(char *s);
 int is_digit(char *s);
 
-#endif 
+#endif
